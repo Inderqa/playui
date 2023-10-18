@@ -11,7 +11,7 @@ from playwright.sync_api import *
 
 from playwright.sync_api import Page
 from pytest_playwright.pytest_playwright import page
-def login_ui():
+def loginn_ui():
     with sync_playwright() as p:
         browser = p.firefox.launch(headless=False)
         context = browser.new_context()
@@ -32,4 +32,4 @@ def login_ui():
             print("Passed: Test Executed")
             context.close()
             browser.close()
-login_ui()
+loginn_ui()
