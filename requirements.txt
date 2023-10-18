@@ -1,0 +1,8 @@
+allure-pytest
+allure-python-commons
+playwright
+pytest-playwright
+pytest
+pytest-json-report
+pytest-bdd
+pytest-mock
