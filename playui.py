@@ -13,7 +13,7 @@ from playwright.sync_api import Page
 from pytest_playwright.pytest_playwright import page
 def loginn_ui():
     with sync_playwright() as p:
-        browser = p.firefox.launch(headless=False)
+        browser = p.firefox.launch(headless=True)
         context = browser.new_context()
         page = context.new_page()
         try:
